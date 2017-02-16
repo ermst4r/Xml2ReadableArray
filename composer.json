@@ -1,5 +1,5 @@
 {
-    "name": "ermst4r/Xml2ReadableArray",
+    "name": "ermst4r/xml2readablearray",
     "description": "Convert xml to an array string (node1.node2.node3), so you can retrieve them via an multidimensional array by splitting the string.",
     "type": "package",
     "require": {
