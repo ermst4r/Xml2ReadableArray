@@ -1,0 +1,14 @@
+{
+  "name": "erwin-nandpersad/xml2readable-array",
+  "autoload": {
+    "psr-0": {
+      "Xml2ReadableArray": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ermst4r/Xml2ReadableArray"
+    }
+  ]
+}
