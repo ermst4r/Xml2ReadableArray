@@ -16,7 +16,7 @@
  *     along with Ermmedia.  If not, see <http://www.gnu.org/licenses/>
  */
 
-namespace ermst4r\xml;
+namespace Ermst4r\Xml;
 use Prewk\XmlStringStreamer;
 use Prewk\XmlStringStreamer\Stream;
 use Prewk\XmlStringStreamer\Parser;

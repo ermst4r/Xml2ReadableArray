@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "ermst4r\\xml" : "src"
+            "Ermst4r\\Xml" : "src"
         }
     },
     "license": "GPL",

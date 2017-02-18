@@ -1,5 +1,5 @@
 <?php
-namespace ermst4r\xml;
+namespace Ermst4r\Xml;
 
 /**
  * Class Xml2Array
