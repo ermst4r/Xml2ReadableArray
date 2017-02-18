@@ -1,5 +1,5 @@
 <?php
-namespace ermst4r;
+namespace ermst4r\xml;
 
 class XmlReaderFacade extends XmlMappingFacade
 {
