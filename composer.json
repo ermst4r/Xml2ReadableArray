@@ -3,7 +3,7 @@
     "description": "Convert xml to an array string (node1.node2.node3), so you can retrieve them via an multidimensional array by splitting the string.",
     "type": "package",
     "version": "1.0",
-    "minimum-stability": "stable",
+    "minimum-stability": "dist",
 
     "require": {
         "php": ">=5.3.0"
