@@ -50,6 +50,7 @@ class XmlReaderFacade extends XmlMappingFacade
 
     /**
      * Convert an xml array to values what is useful :-)
+     * Now you will see all the values from the array
      * @param $plain_mapped
      * @param $xml_data
      * @return array
