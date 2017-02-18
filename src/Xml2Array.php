@@ -1,5 +1,5 @@
 <?php
-namespace XmlMappingFacade;
+namespace ermst4r;
 
 /**
  * Class Xml2Array
