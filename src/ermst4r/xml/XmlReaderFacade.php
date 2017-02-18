@@ -5,7 +5,7 @@ class XmlReaderFacade extends XmlMappingFacade
 {
     /**
      * XmlReaderFacade constructor.
-     * @param $file_name
+     * @param $file_name //
      */
     public function __construct($file_name)
     {
@@ -59,8 +59,9 @@ class XmlReaderFacade extends XmlMappingFacade
 
         $xml_data = Xml2Array::parse($this->loadSimpleXmlString($xml_data));
         $save = [];
-        foreach($plain_mapped as $plain_mapped_key => $plain_mapped_value) {
-            $mapping = self::mappingToTransformableArray($plain_mapped_key);
+        foreach($plain_mapped as $plain_mapped_value) {
+            $mapping = self::mappingToTransformableArray($plain_mapped_value);
+
             $tmp_xml_data = $xml_data;
 
             foreach($mapping as $m) {
@@ -73,7 +74,7 @@ class XmlReaderFacade extends XmlMappingFacade
             // don't show us array values, only workable values
             // change to  $save[key($plain_mapped_value)] = $tmp_xml_data; if you want to use arrays
             if(!is_array($tmp_xml_data)) {
-                $save[key($plain_mapped_value)] = $tmp_xml_data;
+                $save[] = $tmp_xml_data;
             }
         }
 
